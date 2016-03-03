@@ -1,0 +1,541 @@
+;;;  This is a custom Acad.lin file for,
+;;;  AutoCAD / Architectural Desktop / Building Systems 2005,
+;;;
+;;;       Whitman, Requardt & Associates, LLP
+;;;       801 South Caroline Street
+;;;       Baltimore, MD  21231
+;;;       (410) 235-3450
+;;;
+
+;;  Standard AutoCAD Linetypes
+
+*BORDER,Border __ __ . __ __ . __ __ . __ __ . __ __ .
+A,.5,-.25,.5,-.25,0,-.25
+*BORDER2,Border (.5x) __.__.__.__.__.__.__.__.__.__.__.
+A,.25,-.125,.25,-.125,0,-.125
+*BORDER4,__.__.__.__.__.__._ (1/2 of Border2) _.__.__.__.__.__.__.__.__   
+A,.125,-.0625,.125,-.0625,0,-.0625
+*BORDERX2,Border (2x) ____  ____  .  ____  ____  .  ___
+A,1.0,-.5,1.0,-.5,0,-.5
+
+
+*CENTER,Center ____ _ ____ _ ____ _ ____ _ ____ _ ____
+A,1.25,-.25,.25,-.25
+*CENTERF,_____ _ _____ (Finer short dashes than Center) _____
+A,1.25,-.125,.125,-.125
+*CENTER2,Center (.5x) ___ _ ___ _ ___ _ ___ _ ___ _ ___
+A,.75,-.125,.125,-.125
+*CENTERF2,___ _ ___ _ ___ _ ___ _ ___ _ ___ _ ___ _ ___ _ ___ _ ___ _ _
+A,0.75,-0.0625,0.0625,-0.0625
+*CENTER4,___ _ ___ _ ___ _ __ (1/2 of Center2)__ _ ___ _ ___ _ ___ _ _
+A,.375,-.0625,.0625,-.0625
+*CENTERF4,___ _ ___ _ ___ _ __ (1/2 of CenterF2)__ _ ___ _ ___ _ ___ _ _
+A,.375,-.03125,.03125,-.03125
+*CENTER8,___ _ ___ _ ___ _ __ (1/2 of Center4)__ _ ___ _ ___ _ ___ _ _
+A,.1875,-.03125,.03125,-.03125
+*CENTERF8,___ _ ___ _ ___ _ __ (1/2 of CenterF4)__ _ ___ _ ___ _ ___ _ _
+A,.1875,-.015625,.015625,-.015625
+*CENTERX2,Center (2x) ________  __  ________  __  _____
+A,2.5,-.5,.5,-.5
+
+
+*DASHDOT,Dash dot __ . __ . __ . __ . __ . __ . __ . __
+A,.5,-.25,0,-.25
+*DASHDOT2,Dash dot (.5x) _._._._._._._._._._._._._._._.
+A,.25,-.125,0,-.125
+*DASHDOT5,Dash dot (.5x) _._._._._._._._._._._._._._._.
+A,.1,-.125,0,-.125
+*DASHDOTX2,Dash dot (2x) ____  .  ____  .  ____  .  ___
+A,1.0,-.5,0,-.5
+
+
+*DASHED,Dashed __ __ __ __ __ __ __ __ __ __ __ __ __ _
+A,.5,-.25
+*DASHED2,Dashed (.5x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+A,.25,-.125
+*DASHED4,_ _ _ _ _ _ _ _ (1/2 of Dashed2)_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+A,.125,-.0625
+*DASHED5,Dashed (.5x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+A,.1,-.125
+*DASHED8,_ _ _ _ _ _ _ _ (1/2 of Dashed4)_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+A,.0625,-.03125
+*DASHED16,_ _ _ _ _ _ _ _ (1/2 of Dashed4)_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+A,.03125,-.015625
+*DASHEDX2,Dashed (2x) ____  ____  ____  ____  ____  ___
+A,1.0,-.5
+
+
+*DIVIDE,Divide ____ . . ____ . . ____ . . ____ . . ____
+A,.5,-.25,0,-.25,0,-.25
+*DIVIDE2,Divide (.5x) __..__..__..__..__..__..__..__.._
+A,.25,-.125,0,-.125,0,-.125
+*DIVIDE5,Divide (.5x) __..__..__..__..__..__..__..__.._
+A,.1,-.125,0,-.125,0,-.125
+*DIVIDEX2,Divide (2x) ________  .  .  ________  .  .  _
+A,1.0,-.5,0,-.5,0,-.5
+
+
+*DOT,Dot . . . . . . . . . . . . . . . . . . . . . . . .
+A,0,-.25
+*DOT2,Dot (.5x) ........................................
+A,0,-.125
+*DOT4,...................(1/2 of Dot2)................................
+A,0,-.06125
+*DOT8,...................(1/2 of Dot4)................................
+A,0,-.03125
+*DOT16,..................(1/2 of Dot8)................................
+A,0,-.0015625
+*DOTX2,Dot (2x) .  .  .  .  .  .  .  .  .  .  .  .  .  .
+A,0,-.5
+
+
+*HIDDEN,Hidden __ __ __ __ __ __ __ __ __ __ __ __ __ __
+A,.25,-.125
+*HIDDEN2,Hidden (.5x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+A,.125,-.0625
+*HIDDEN4,_ _ _ _ _ _ _ _ (1/2 of Hidden2)_ _ _ _ _ _ _ _ _ _ _ _ _ _
+A,.0625,-.03125
+*HIDDEN8,_ _ _ _ _ _ _ _ (1/2 of Hidden4)_ _ _ _ _ _ _ _ _ _ _ _ _ _
+A,.03125,-.015
+*HIDDENX2,Hidden (2x) ____ ____ ____ ____ ____ ____ ____ 
+A,.5,-.25
+
+
+*PHANTOM,Phantom ______  __  __  ______  __  __  ______ 
+A,1.25,-.25,.25,-.25,.25,-.25
+*PHANTOM2,Phantom (.5x) ___ _ _ ___ _ _ ___ _ _ ___ _ _
+A,.625,-.125,.125,-.125,.125,-.125
+*PHANTOM4,___ _ _ ___ _ _ (1/2 of Phantom2)__ _ _ ___ _ _ ___ _ _ ___ _ _
+A,.3125,-.0625,.0625,-.0625,.0625,-.0625
+*PHANTOM8,___ _ _ ___ _ _ (1/2 of Phantom4)__ _ _ ___ _ _ ___ _ _ ___ _ _
+A,.15625,-.03125,.03125,-.03125,.03125,-.03125
+*PHANTOMX2,Phantom (2x) ____________    ____    ____   _
+A,2.5,-.5,.5,-.5,.5,-.5
+
+
+;; Demolition Linetypes
+
+*DEMOx2,____        ____        ____        ____        ____
+A,.250,-.5
+*DEMO,__    __    __    __    __    __    __    __    __    __    __
+A,.125,-.25
+*DEMO2,_  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _  _
+A,.0625,-.125
+*DEMO4,_  _  _  _  _  _  (1/2 of Demo2) _  _  _  _  _  _  _  _  _  _  _
+A,.0625,-.125
+*DEMO8,_  _  _  _  _  _  (1/2 of Demo4) _  _  _  _  _  _  _  _  _  _  _
+A,.03125,-.0625
+*DEMO_SLASH,Demo with Slash ---- / ---- / ---- / ----
+A,.2,0,["/",Linetypes,S=0.09375,R=0.0,X=-0.1,Y=-.05],-.001
+
+
+;; Custom Linetypes
+
+*EVENDASH,--  --  --  --  --  --  --  --  --  --  --
+A,.125,-.125
+*INVISIBLE,.        (Dot at endpoints only)             .
+A,0,-1000
+*EXISTING_SEWER,Existing Sewer
+A,.0625,-.125,.25,-.125,.25,-.125
+*EXISTING_STORM_DRAIN,Existing Storm Drain
+A,.0625,-.125,.25,-.125,.25,-.125,.25,-.125
+
+;;  Complex linetypes
+
+*BATTING,Batting SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+A,.0001,-.1,[BAT,ltypeshp.shx,x=-.1,s=.1],-.2,[BAT,ltypeshp.shx,r=180,x=.1,s=.1],-.1
+*BUSHLINE,Bush Line
+A,0,[BUSHLINE1,WRA_COMMON_SYMBOLOGY,s=1],-.2401,0,[BUSHLINE2,WRA_COMMON_SYMBOLOGY,s=1],-0.2692
+*Comm_Duct,Communication ----C----C----C----C----C----C--
+A,.5,-.16,["C",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.03
+*CTV,TV ----CTV----CTV----CTV----CTV----CTV----CTV--
+A,.5,-.16,["CTV",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.25
+*DF,Diversion Fence Line ----DF----DF----DF----DF----DF----DF--
+A,.5,-.2,["DF",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.2
+*Construction Fence Line ----CF----CF----CF----CF----CF----CF--
+A,.5,-.2,["CF",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.2
+*DITCHFLOW,Ditch Flow Line
+A,.429877,-.256897,[DITCHFLOW,WRA_COMMON_SYMBOLOGY,s=1],-.256897,.429877
+*Fence,Fence Line ----X----X----X----X----X----X--
+A,.5,-.16,["X",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.03
+*FENCELINE1,Fenceline circle ----0-----0----0-----0----0-----0--
+A,.25,-.1,[CIRC1,ltypeshp.shx,x=-.1,s=.1],-.1,1
+*FENCELINE2,Fenceline square ----[]-----[]----[]-----[]----[]---
+A,.25,-.1,[BOX,ltypeshp.shx,x=-.1,s=.1],-.1,1
+*FENCWD,Wooden Fence
+A,.484881,-.122021,[FENCWD,WRA_COMMON_SYMBOLOGY,s=1],-.122021,.484881
+*FIBER_OPT,FO ----FO----FO----FO----FO----FO----FO--
+A,.5,-.16,["FO",Linetypes,S=.1,R=0.0,X=-0.1,Y=-.05],-.15
+*ForceMain,Force Main Line ----FM----FM----FM----FM----FM----FM--
+A,.5,-.2,["FM",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.2
+*GAS_LINE,Gas line ----G----G----G----G----G----G--
+A,.5,-.16,["G",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.03
+*GUARDRAIL,Guard Rail
+A,.242441,[BEAM,WRA_COMMON_SYMBOLOGY,s=1],.242441
+*HEDGE,Hedge Line
+A,0,-.125,[HEDGE,WRA_COMMON_SYMBOLOGY,s=0.5,r=360],-.125
+*HT_WTR_SuP,Hot water supply ---- HW ---- HW ---- HW ----
+A,.5,-.2,["HW",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.2
+*PROPERTY,Property Line  ----- PL ----- PL ---- PL ----
+A,.75,-.09,["P",Linetypes,y=-.01821,s=.09375],-.03,["L",Linetypes,y=-.05139,s=.09375],-.11
+*LOW,Limit Of Work ----LOW----LOW----LOW----LOW----LOW----LOW--
+A,.5,-.2,["LOW",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.25
+*LOD,Limit Of Disturbance ----LOD----LOD----LOD----LOD----LOD----LOD--
+A,.5,-.2,["LOD",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.25
+*LOD-A,Limit Of Disturbance ----LOD-A----LOD-A----LOD-A----LOD-A---
+A,.5,-.2,["LOD-A",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.5
+*LOD-B,Limit Of Disturbance ----LOD-B----LOD-B----LOD-B----LOD-B---
+A,.5,-.2,["LOD-B",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.5
+*LOD-R,Limit Of Disturbance ----LOD-R----LOD-R----LOD-R----LOD-R---
+A,.5,-.2,["LOD-R",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.5
+*RPA,Limit Of Disturbance ----RPA----RPA----RPA----
+A,.5,-.2,["RPA",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.25
+*Overhead_Util,Overhead Utilities----OH----OH----OH----OH----OH----OH--
+A,.5,-.16,["OH",Linetypes,S=0.09375,X=-0.05,Y=-.046875],-.25
+*Overhead_Comm,Overhead Communication----OHC----OHC----OHC----OHC----OHC----OHC--
+A,.5,-.16,["OHC",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.25
+*Overhead_Elec,Overhead Elec----OHE----OHE----OHE----OHE----OHE----OHE--
+A,.5,-.16,["OHE",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.25
+*Overhead_Tele,Overhead Tele----OHT----OHT----OHT----OHT----OHT----OHT--
+A,.5,-.16,["OHT",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.25
+*Overhead_Fiber,Overhead_Fiber Optics ----OHFO----OHFO----OHFO----OHFO----OHFO----OHFO--
+A,.5,-.2,["OHFO",Linetypes,S=0.09375,X=-0.15,Y=-.046875],-.30
+*Overhead_CTV,Overhead_CTV ----OHCTV----OHCTV----OHCTV----OHCTV----OHCTV----OHCTV--
+A,.5,-.2,["OHCTV",Linetypes,S=0.09375,X=-0.15,Y=-.046875],-.35
+*RAILROAD,Railroad double line
+A,0,[RAILROAD,WRA_COMMON_SYMBOLOGY,s=1],-.25
+*ROW,Right of Way  _____ __ __ __ ________
+A,.4,-.0625,.0625,-.0625,.0625,-.0625,.0625,-.0625
+*SAFFENCE,SAFE FENCE  ------ XX ------ XX ------
+A,1,["XX",Linetypes,s=0.1,r=0,x=0.05,y=-0.05],-0.3
+*Sanitary,Sanitary ----S----S----S----S----S----S--
+A,0.5,-.16,["S",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-0.03
+*SBD,Straw Bale Dike ----SBD----SBD----SBD----SBD----SBD----SBD--
+A,.5,-.2,["SBD",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.25
+*SF,Silt Fence Line ----SF----SF----SF----SF----SF----SF--
+A,.5,-.2,["SF",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.2
+*DF,Sediment Control Fence Line ----DF----DF----DF----DF----DF----DF--
+A,.5,-.2,["DF",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.2
+*SSF,Super Silt Fence ----SSF----SSF----SSF----SSF----SSF----SSF--
+A,.5,-.2,["SSF",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.25
+*SFP,Silt Fence Pavement ----SFP----SFP----SFP----SFP----SFP----SFP--
+A,.5,-.2,["SFP",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.25
+*RSF,Reinforced Silt Fence ----RSF----RSF----RSF----RSF----RSF----RSF--
+A,.5,-.2,["RSF",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.25
+*Steam,Steam line ----STM----STM----STM----STM----STM----STM--
+A,.5,-.2,["STM",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.25
+*SFM,Sanitary Force Main ----SFM----SFM----SFM----SFM----SFM----SFM--
+A,.5,-.16,["SFM",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.25
+*Storm_Drain,Storm Drain ----D----D----D----D----D----D--
+A,0.5,-.16,["D",Linetypes,S=0.09375,X=-0.1,Y=-0.046875],-0.03
+;*STREAM,_________ . . . ___________ . . . ___________
+;A,1,-0.125,0,-0.125,0,-0.125,0,-0.125                                  
+*STREAM,_________ . . . ___________ . . . ___________
+A,1,-0.125,0.01,-0.125,0.01,-0.125,0.01,-0.125                                  
+*TRACKS,Tracks -|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
+A,.15,[TRACK1,ltypeshp.shx,s=.25],.15
+*Ungrnd_Tele,Underground Telephone ----T----T----T----T----T----T--
+A,.5,-.16,["T",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.03
+*Ungrnd_Elec,Electric Underground ---- E ---- E ---- E ----
+A,.5,-.16,["E",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.03
+*Water,Water ----W----W----W----W----W----W--
+A,.5,-.16,["W",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.03
+*Wetlands,Wetlands ----WET----WET----WET----WET----WET----WET--
+A,.5,-.16,["WET",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.2
+*ZIGZAG,Zig zag /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+A,.0001,-.2,[ZIG,ltypeshp.shx,x=-.2,s=.2],-.4,[ZIG,ltypeshp.shx,r=180,x=.2,s=.2],-.2
+*Flood_Plain,Flood Plain ----FP----FP----FP----FP----FP----FP--
+A,.5,-.2,["FP",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.2
+*Flood_Water,Flood Water ----FW----FW----FW----FW----FW----FW--
+A,.5,-.12,["FW",Linetypes,S=0.09375,X=-0.05,Y=-.046875],-.2
+*Traffic_Signal,Traffic Signal ----TS----TS----TS----TS----TS----TS--
+A,.5,-.2,["TS",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.2
+*Tidal Wetland,Tidal Wetland ----TW----TW----TW----TW----TW----TW--
+A,.5,-.12,["TW",Linetypes,S=0.09375,X=-0.05,Y=-.046875],-.2
+*Non-Tidal Wetland,Non-Tidal Wetland ----NTW----NTW----NTW----NTW----NTW----NTW--
+A,.5,-.12,["NTW",Linetypes,S=0.09375,X=-0.05,Y=-.046875],-.28
+*PED Line,PED line - - - - PED - - - - PED - - - - PED - - - - 
+A,.05,-.025,.05,-.025,.05,-.025,["PED",Linetypes,S=.1,X=-0.02,Y=-0.005],-.025
+*BIKE Line,BIKE line ----BIKE--------BIKE--------BIKE------
+A,.05,-.025,.05,-.025,.05,-.025,["BIKE",Linetypes,S=.1,X=-0.02,Y=-0.005],-.025
+*EOP,Edge of Pavement
+A,.000004,[EOP,Asph,s=1],-.3814
+*EOP_L,Edge of Pavement Left Side
+A,.000004,[EOP,Asph,s=1],-.3814
+*EOP_R,Edge of Pavement right side
+A,.5,[EOP,Asph,s=1,r=180],.000004
+
+*Cut,Cut --C-----C-----C-----
+A,0.2,-0.075,0.2,-0.2,["C",Linetypes,S=0.1,X=-0.14,Y=-0.05],0.2,-0.075,0.2,-0.075,0.2,-0.075
+*Fill,Fill --F-----F-----F-----
+A,0.36,-0.2,["F",Linetypes,S=0.1,X=-0.14,Y=-0.05],0.36,-0.12,0.36,-0.12
+
+;; Environmental Linetypes
+
+*100yr_FLPN,100 Year Floodplain
+A,.490784,[FLOODPLAIN,wra_common_symbology,s=1],-.01
+*100yr_FLPN-REV,100 Year Floodplain
+A,.490784,[FLOODPLAIN,wra_common_symbology,s=1,r=180],-.01
+
+*100yr_Floodplain,100 Year Floodplain
+A,0.75,-0.05,["100yr",Linetypes,S=0.09375,Y=-.046875],-0.45,0.2,-0.05,["FLPN",Linetypes,S=0.09375,Y=-.046875],-0.4
+*500yr_Floodplain,500 Year Floodplain
+A,0.75,-0.05,["500yr",Linetypes,S=0.09375,Y=-.046875],-0.45,0.2,-0.05,["FLPN",Linetypes,S=0.09375,Y=-.046875],-0.4
+
+*CBCA,Chesapeake Bay Critical Area ----CBCA----CBCA----CBCA----CBCA----CBCA----CBCA--
+A,.5,-.1,["CBCA",Linetypes,S=0.09375,X=-0.05,Y=-.046875],-.35
+*FIDS,Forest Interior Dwelling Species ----FIDS----FIDS----FIDS----
+A,.5,-.1,["FIDS",Linetypes,S=0.09375,X=-0.05,Y=-.046875],-.35
+
+*LOD Ph1,LOD Phase 1 ----LOD Phase 1----LOD Phase 1----LOD Phase 1----LOD Phase 1----
+A,.3,-.2,["LOD PH1",Linetypes,S=0.0625,X=-0.15,Y=-.03125],-.3
+*LOD SSF,LOD/SSF ----LOD/SSF----LOD/SSF----LOD/SSF----LOD/SSF----
+A,.3,-.2,["LOD/SSF",Linetypes,S=0.0625,X=-0.15,Y=-.03125],-.3
+*LOD SF,LOD/SF ----LOD/SF----LOD/SF----LOD/SF----LOD/SF----
+A,.3,-.2,["LOD/SF",Linetypes,S=0.0625,X=-0.15,Y=-.03125],-.3
+*LOD SBD,LOD/SBD ----LOD/SBD----LOD/SBD----LOD/SBD----LOD/SBD----
+A,.3,-.2,["LOD/SBD",Linetypes,S=0.0625,X=-0.15,Y=-.03125],-.3
+*Raw Water,Raw Water ----RW----RW----RW----RW----RW----RW--
+A,.5,-.16,["RW",Linetypes,S=0.09375,X=-0.05,Y=-.046875],-.25
+*Soil_Boundary,Soil_Boundary
+A,0,-.001,[soil_boundary,wra_common_symbology,x=-0.055],-.65
+*Stream_Buffer,Stream Buffer ----SB----SB----SB----SB----SB----SB--
+A,.5,-.16,["SB",Linetypes,S=0.09375,X=-0.05,Y=-.046875],-.25
+*Tc_Flow_Path,Tc_Flow_Path
+A,1,[TC_FLOW_ARROW,wra_common_symbology,r=180],-.1
+*Tree_Protection,Tree Protection ----TP----TP----TP----TP----TP----TP--
+A,.5,-.16,["TP",Linetypes,S=0.09375,X=-0.05,Y=-.046875],-.25
+*Tree_Protection_Fence,Tree Protection Fence ----TPF----TPF----TPF----TPF----TPF----TPF--
+A,.5,-.16,["TPF",Linetypes,S=0.09375,X=-0.05,Y=-.046875],-.25
+*SF-TPF,Silt Fence Tree Protection Fence ----SF/TPF----SF/TPF----SF/TPF----SF/TPF----
+A,.6,-.2,["SF/TPF",Linetypes,S=0.0625,X=-0.15,Y=-.03125],-.2
+*SSF-TPF,Super Silt Fence Tree Protection Fence ----SSF/TPF----SSF/TPF----SSF/TPF----SSF/TPF----
+A,.6,-.2,["SSF/TPF",Linetypes,S=0.0625,X=-0.15,Y=-.03125],-.3
+*Wetland_Boundary,Wetland Boundary
+A,.490784,[WETL,wra_common_symbology,s=1],-.199965
+*Wetland_Buffer,Wetland Buffer ----WB----WB----WB----WB----WB----WB--
+A,.5,-.16,["WB",Linetypes,S=0.09375,X=-0.05,Y=-.046875],-.25
+*wus,Waters of the US ----WUS----WUS----WUS----WUS----WUS----WUS--
+A,.5,-.15,["WUS",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.25
+
+*Earth_Dike,Earth Dike
+A,0.32,-0.125,0.5,[TC_FLOW_ARROW,wra_common_symbology,r=180],-.125
+*Earth_Dike_MB,Earth Dike MB
+A,0.75,[TC_FLOW_ARROW,wra_common_symbology,r=180],-.01,0.35,-0.30,["MB",Linetypes,S=0.09375,X=-0.25,Y=-.046875],-0.01
+*Temporary_Swale,Temporary_Swale = = = = = = 
+A,0,[TEMPORARY_SWALE,wra_common_symbology.shx],-0.32,[TEMP_SWALE_ARROWS,wra_common_symbology.shx],-.125
+
+
+;; ATFP (Anti-Terrorism/Force Protection)
+
+*ATFP-33,33' (10m) Setback Line ----33'----33'----33'----33'----33'----33'--
+A,.65,-.2,["33'",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.2,.65,-.2,["ATFP",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.275
+*ATFP-148,148' (45m) Setback Line ----148'----148'----148'----148'----148'----148'--
+A,.65,-.2,["148'",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.275,.65,-.2,["ATFP",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.275
+*ATFP-300,300' Setback Line ----300'----300'----300'----300'----300'----300'--
+A,.65,-.2,["300'",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.275,.65,-.2,["ATFP",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.275
+
+
+;; Land Desktop Complex Linetypes
+
+*BARBWIRE_1, Barbed Wire Fence with spaces
+A,1.0,-.1,["X",Linetypes,S=0.09375,R=0.0,X=-0.025,Y=-.0375],-.1
+*BARBWIRE_2, Barbed Wire Fence without spaces
+A,1.0,-.02,["X",Linetypes,S=0.09375,R=0.0,X=-0.025,Y=-.0375],-.02
+
+*CHAINLINK_1, Chain Link Fence with spaces
+A,.75,-.1,[CIRCLE,AeccLand,x=-.0325,s=.0325],-.1,.5
+*CHAINLINK_2, Chain Link Fence without spaces
+A,.75,-.0325,[CIRCLE,AeccLand,x=-.0325,s=.0325],-.0325,.5
+
+*CONTOUR,______  ______  ______  ______  ______  ______  ______  ______
+A,.375,-.09375
+*CONTOUR2,____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ 
+A,.25,-.0625
+
+*GUARD_L, Guardrail posts on left
+A,0,[CIRCLE,AeccLand,s=.0175,r=90],.305663,[CIRCLE,AeccLand,s=.0175,r=90]
+*GUARD_R, Guardrail posts on right
+A,0,[CIRCLE,AeccLand,s=.0175,r=270],.305663,[CIRCLE,AeccLand,s=.0175,r=270]
+
+*STOCKADE_1, Stockade Fence with spaces
+A,.75,-.1,[BOX,AeccLand,x=-.025,s=.025],-.1,.5
+*STOCKADE_2, Stockade Fence without spaces
+A,.75,-.05,[BOX,AeccLand,x=-.025,s=.025],-.05,.5
+
+*STONEWALL, Stone Wall
+A,0,-.0625,[STONE,AeccLand,s=1],-.06303
+
+*TREELINE_L, Tree Line left side
+A,0,-.13,[TREE,AeccLand,s=.13],-.13
+*TREELINE_R, Tree Line right side
+A,0,-.13,[TREE,AeccLand,s=.13,r=180],-.13
+
+*WaterEdge,WatersEdge _____ __ __ __ ________
+A,0.625,-0.175,[wateredge,wra_common_symbology,s=1,x=-0.0875],-0.175,[wateredge,wra_common_symbology,s=1,x=-0.0875],-0.175,[wateredge,wra_common_symbology,s=1,x=-0.0875],0.625
+
+;; *WaterEdge,WatersEdge _____ __ __ __ ________
+;; A,1.25,-0.06,0.08,-0.06,0.08,-0.06,0.08,-0.06
+
+
+;; Telecommunication Linetypes
+
+*SECURITY_WIRING,----A----A----A----A----A---- 
+A,.5,-.2,["A",Linetypes,S=0.09375,R=0.0,X=-0.03,Y=-.05],-.2
+*SOUND_WIRING,----S----S----S----S----S---- 
+A,.5,-.16,["S",Linetypes,S=0.09375,R=0.0,X=-0.1,Y=-.05],-.03
+*TELEPHONE_WIRING,----T----T----T----T----T---- 
+A,.5,-.16,["T",Linetypes,S=0.09375,R=0.0,X=-0.03,Y=-.05],-.2
+
+
+;; Mechanical Linetypes
+
+*2DASHES,____ _ _ _____ _ _ ____ _ _ ____ _ _ ____
+A,0.75,-0.25,0.1,-0.25,0.1,-0.25
+*BOUNDARY,___________  __  __  ___________  __  __  ______ 
+A,1.75,-0.125,0.125,-0.125,0.125,-0.125
+*BOUNDARY2,______ _ _ ______ _ _ ______ _ _ ______ _ _ ______
+A,1,-0.0625,0.0625,-0.0625,0.0625,-0.0625
+*COLDWR, ___ _ ______________ _ ____
+A,1.25,-0.12,0.08,-0.12
+*EWIREUP,__ . __ . __ . __ . __ . __ . __ . __ .__
+A,.25,-.075,0,-.075
+*EWCELL,___ ___ . ___ ___ . __ __ . __ __ . __ __
+A,.25,-.075,.25,-.075,0,-.075
+*HOTWR,___ _ _ ___________ _ _ ____
+A,1.25,-0.12,0.08,-0.12,0.08,-0.12
+*HWR,Hot Wtr Return _____ __ __ __ ________
+A,1.25,-0.06,0.08,-0.06,0.08,-0.06,0.08,-0.06
+*HCW,_____ _ _ _ _____ _ _ _ _____ _ _ _ _____
+A,1,-0.125,0.125,-0.125,0.125,-0.125,0.125,-0.125
+*PNEUM,__ ___ ___ ___ ___ ___ ___ ___ ___ ___ __
+A,0.2,-0.1,0.2,-0.1
+*WASTE,__ __ __ __ __ __ __ __ __ __ __ __ __ __
+A,.25,-.125
+
+
+;; Plumbing Linetypes
+
+*COND,Steam Condensate __ __ __ __ __ __ __ __ __ __ __
+A,0.16,-0.08
+*COND2,Steam Condensate _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+A,0.08,-0.04
+*CONDX2,Steam Condensate ____    ____    ____    ____
+A,0.32,-0.16
+*DCW,Domestic Cold Water ___ _ ______________ _ ____
+A,1.25,-0.10,0.08,-0.10
+*DCW_WRA,Domestic Cold Water ___ _ ______________ _ ____
+A,.50,-0.10,0.08,-0.10
+*DCW2,Domestic Cold Water __ _ ______ _ _____ _ ____
+A,.625,-0.03,0.04,-0.03
+*DCWX2,Domestic Cold Water ________  ___  __________
+A,2.5,-0.12,0.16,-0.12
+*DHW,Domestic Hot Water ___ _ _ ___________ _ _ ____
+A,1.25,-0.06,0.08,-0.06,0.08,-0.06
+*DHW_WRA,Domestic Hot Water ___ _ _ ___________ _ _ ____
+A,.55,-0.06,0.08,-0.06,0.08,-0.06
+*DHW2,Domestic Hot Water __ _ _ _____ _ _ ____ _ _ __
+A,.625,-0.03,0.04,-0.03,0.04,-0.03
+*DHWX2,Domestic Hot Water _____  ___  ___  ___  _____
+A,2.5,-0.12,0.16,-0.12,0.16,-0.12
+*DHWR,Domestic Hot Wtr Return _____ __ __ __ ________
+A,1.25,-0.06,0.08,-0.06,0.08,-0.06,0.08,-0.06
+*DHWR_WRA,Domestic Hot Wtr Return _____ __ __ __ ________
+A,.50,-0.06,0.08,-0.06,0.08,-0.06,0.08,-0.06
+*DHWR2,Domestic Hot Wtr Return ___ _ _ _ ____________
+A,.625,-0.03,0.04,-0.03,0.04,-0.03,0.04,-0.03
+*DHWRX2,Domestic Hot Wtr Return ____ ___ ____ ____ ____
+A,2.5,-0.12,0.16,-0.12,0.16,-0.12,0.16,-0.12
+*INDIRECT_DRAIN_1,---->---->---->---->
+A,.125,[">",Linetypes,S=0.09375,R=0.0,X=-0.1,Y=-.05],.125
+*INDIRECT_DRAIN_2,----»----»----»----»
+A,.5,["»",Linetypes,S=0.09375,R=0.0,X=-0.1,Y=-.0335],.5
+*VENT,Sanitary Vent Pipe __ __ __ __ __ __ __ __ __ __
+A,0.16,-0.12
+*VENT2,Sanitary Vent Pipe _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+A,0.08,-0.04
+*VENTX2,Sanitary Vent Pipe ____    ____    ____    ___
+A,0.32,-0.16
+
+
+;;  ISO 128 (ISO/DIS 12011) linetypes
+
+*ACAD_ISO02W100,ISO dash __ __ __ __ __ __ __ __ __ __ __ __ __
+A,12,-3
+*ACAD_ISO03W100,ISO dash space __    __    __    __    __    __
+A,12,-18
+*ACAD_ISO04W100,ISO long-dash dot ____ . ____ . ____ . ____ . _
+A,24,-3,0,-3
+*ACAD_ISO05W100,ISO long-dash double-dot ____ .. ____ .. ____ . 
+A,24,-3,0,-3,0,-3
+*ACAD_ISO06W100,ISO long-dash triple-dot ____ ... ____ ... ____
+A,24,-3,0,-3,0,-3,0,-3
+*ACAD_ISO07W100,ISO dot . . . . . . . . . . . . . . . . . . . . 
+A,0,-3
+*ACAD_ISO08W100,ISO long-dash short-dash ____ __ ____ __ ____ _
+A,24,-3,6,-3
+*ACAD_ISO09W100,ISO long-dash double-short-dash ____ __ __ ____
+A,24,-3,6,-3,6,-3
+*ACAD_ISO10W100,ISO dash dot __ . __ . __ . __ . __ . __ . __ . 
+A,12,-3,0,-3
+*ACAD_ISO11W100,ISO double-dash dot __ __ . __ __ . __ __ . __ _
+A,12,-3,12,-3,0,-3
+*ACAD_ISO12W100,ISO dash double-dot __ . . __ . . __ . . __ . . 
+A,12,-3,0,-3,0,-3
+*ACAD_ISO13W100,ISO double-dash double-dot __ __ . . __ __ . . _
+A,12,-3,12,-3,0,-3,0,-3
+*ACAD_ISO14W100,ISO dash triple-dot __ . . . __ . . . __ . . . _
+A,12,-3,0,-3,0,-3,0,-3
+*ACAD_ISO15W100,ISO double-dash triple-dot __ __ . . . __ __ . .
+A,12,-3,12,-3,0,-3,0,-3,0,-3
+
+;; Instrumentation
+*I_DATA,Data Signal -O-O-O-O-
+A,.125,-.0625,["O",Linetypes,S=0.06,R=0.0,X=-0.03,Y=-.025],-.0625
+*I_Digital,Digital Signal ----\----\----\----
+A,.0625,-.03125,["\",Linetypes,S=0.06,R=0.0,X=0,Y=-.025],-.0625
+*I_Elec,Electric Signal Power -\\\-\\\-\\\-
+A,.5,0,["\\\",Linetypes,S=0.06,R=0.0,X=0,Y=-.025],.05
+*I_Elec_M,electromagnetic or sonic signal -~-~-~
+A,.25,0,["~",Linetypes,S=0.15,R=-19,X=0,Y=-.03],.25
+*I_Hydr,Hydraulic Signal-L-L-L-
+A,.5,0,["L",Linetypes,S=0.06,R=0.0,X=0,Y=-.025],.05
+*I_PNEU,Pneumatic Signal -\\-\\-\\-
+A,.5,0,["\\",Linetypes,S=0.06,R=0.0,X=0,Y=-.025],.05
+*I_TELE,----T----T----T----T----T---- 
+A,.125,-.0625,["T",Linetypes,S=0.09375,R=0.0,X=-0.03,Y=-.05],-.0625
+*I_Undef,Undefined Signal-\-\-\-
+A,.125,0,["\",Linetypes,S=0.06,R=0.0,X=0,Y=-.025],.05
+*DISCRETE SIGNAL,Discrete signal ---- DISCRETE ---- DISCRETE ---
+A,0.25,-0.425,["DISCRETE",Linetypes,s=0.06,r=0,x=-0.42,y=-0.03],-0.001
+*DATA SIGNAL,Data signal ---- DATA ---- DATA ---- DATA ----
+A,0.25,-0.225,["DATA",Linetypes,s=0.06,r=0,x=-0.215,y=-0.03],-0.001
+
+
+;;  Pavement Markings linetypes
+*Skip Standard Line - 40 scale,Standard Skip Line ___       ___       ___
+A,.25,-.75
+*Skip Puppy Line - 40 scale,Puppy Track Skip Line __    __    __
+A,.075,-.225
+
+;; Howard County Linestyles
+*HoCo Sanitary,HoCoSanitary ----S----S----S----S----S----S--
+A,0.0625,-0.0625,0.0625,0.0625,-0.0625,0.0625,0.0625,-0.0625,0.0625,-.16,["S",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-0.03
+*HoCo Force Main,HoCoFM ----FM----FM----FM----FM----FM----FM--
+A,0.0625,-0.0625,0.0625,-0.0625,0.0625,-0.0625,0.0625,-.16,["FM",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-0.16
+*HoCoStorm_Drain,HoCoStorm Drain ----D----D----D----D----D----D--
+A,0.0625,-0.0625,0.0625,-0.0625,0.0625,-.0625,0.0625,-.16,["D",Linetypes,S=0.09375,X=-0.1,Y=-0.046875],-0.03
+*HoCoWater,HoCoWater ----W----W----W----W----W----W--
+A,0.0625,-0.0625,0.0625,-0.0625,0.0625,-0.0625,0.0625,-.16,["W",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.03
+*HoCoGas,HoCoGas ----G----G----G----G----G----G--
+A,0.0625,-0.0625,0.0625,-0.0625,0.0625,-0.0625,0.0625,-.16,["G",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.03
+
+*Stripe Skip 10 30,Stripe Skip 10 30 -   -   -   -   -   
+A,10,-30
+*Stripe Skip 3 9,Stripe Skip 3 9 -   -   -   -   -   
+A,3,-9
+*Stripe Skip 2 6,Stripe Skip 2 6 -   -   -   -   -   
+A,2,-6
+
+*SAP,Sensitive Area Protection ----SAP----SAP----SAP----SAP----SAP----SAP--
+A,.5,-.2,["SAP",Linetypes,S=0.09375,X=-0.1,Y=-.046875],-.25
